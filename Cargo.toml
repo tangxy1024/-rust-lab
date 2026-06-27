@@ -1,0 +1,17 @@
+[workspace]
+resolver = "2"
+
+members = [
+    "basics",
+    "ownership",
+    "structs-enums",
+    "collections",
+    "error-handling",
+    "traits-generics",
+    "closures-iters",
+    "smart-pointers",
+    "concurrency",
+    "async-await",
+    "macros",
+    "unsafe-ffi",
+]

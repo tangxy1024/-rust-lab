@@ -1,0 +1,11 @@
+[package]
+name = "async-await"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+
+[[bin]]
+name = "async-await"
+path = "src/main.rs"
